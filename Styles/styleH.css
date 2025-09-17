@@ -1,11 +1,19 @@
-body{
+/*<uniquifier>: Use a unique and descriptive class name*/
+
+
+
+
+body {
     background: #a42c36;
 
 }
 
-nav{
-    
+nav {
+    color: black;
     padding: 32px
+}
 
 
+a:link, a:visited {
+    color: #867e7e;
 }

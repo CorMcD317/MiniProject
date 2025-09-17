@@ -1,0 +1,23 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
+body{ background-color: #ba551d;
+
+}
+
+
+
+
+img {
+    width:1600px;
+    height: 1600px;
+
+    margin: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
