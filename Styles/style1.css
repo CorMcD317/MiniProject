@@ -13,3 +13,7 @@ img {
 p {
     text-align: center;
 }
+
+a:link, a:visited {
+    color: #690505;
+}

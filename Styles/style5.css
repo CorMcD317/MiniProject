@@ -1,0 +1,27 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
+body{ background-color: #171b00;
+
+}
+
+
+
+
+img {
+    width: 1536px;
+    height: 1024px;
+
+    margin: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #867e7e;
+}

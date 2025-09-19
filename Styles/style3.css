@@ -21,3 +21,7 @@ img {
 p {
     text-align: center;
 }
+
+a:link, a:visited {
+    color: #aba4a4;
+}
