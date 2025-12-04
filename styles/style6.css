@@ -1,0 +1,27 @@
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    margin-inline: auto;
+    max-width: 1200px;
+    }
+
+
+.feature{
+
+}
+
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 2048px) {
+
+}

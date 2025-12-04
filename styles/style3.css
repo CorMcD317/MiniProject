@@ -3,7 +3,8 @@ html, body {
 }
 
 
-body{ background-color: #ba551d;
+body{
+    background: linear-gradient( 135deg, #db3e0b 0%, #9c5b23 30%, #ac4d00 50%, #1a1706 100%);
 
 }
 
@@ -24,4 +25,16 @@ p {
 
 a:link, a:visited {
     color: #aba4a4;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 2048px) {
+
 }

@@ -1,7 +1,7 @@
 
 
-body{ background-color: #6e4934;
-
+body{
+    background: linear-gradient( 135deg, #984527 0%, #5d3418 30%, #d3996b 50%, #45362b 100%);
 }
 
 
@@ -21,4 +21,16 @@ p {
 
 a:link, a:visited {
     color: #867e7e;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 2048px) {
+
 }
