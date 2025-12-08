@@ -1,4 +1,4 @@
-.feature-grid {
+.card{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,11 +6,54 @@
     gap: 1rem;
     margin-inline: auto;
     max-width: 1200px;
-    }
+}
 
+#Lace{
+    background-color: lightgray;
+}
 
-.feature{
+#TROBBIOOO{
+    background-color: #6E0902
+}
 
+#Shakra{
+    background-color:  #976928;
+
+}
+
+#HugeFlea{
+    background-color: #552d18;
+
+}
+
+#Seth{
+    background-color: #112218;
+
+}
+
+.Lace{
+    color: #000000
+}
+
+.Trobbio{
+ color: #b52a46;
+}
+
+.Shakra{
+ color: #8e3756;
+
+}
+
+.HugeFlea{
+    color: #7c6f68;
+}
+
+.Seth{
+ color: #205937;
+}
+
+body{
+    background-color: #000;
 }
 
 
