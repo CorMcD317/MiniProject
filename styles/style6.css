@@ -6,7 +6,15 @@
     gap: 1rem;
     margin-inline: auto;
     max-width: 1200px;
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
 }
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+}
+
 
 #Lace{
     background-color: lightgray;

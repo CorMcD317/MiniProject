@@ -4,6 +4,24 @@
     align-items: center;
     background: #222;
     padding: 15px 30px;
+    border-radius: 20px;
+    transition: transform 1.8s ease, box-shadow 0.3s ease;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(201, 23, 31, 0.3);
+    }
+    to {
+        box-shadow: 0 0 25px rgba(201, 23, 31, 1);
+    }
+}
+
+
+.navbar:hover{
+    transform: translateY(-8px) scale(1.0005);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
 }
 
 /* Logo */
@@ -29,3 +47,82 @@
 
 .nav-links li a:hover {
     color: #ff9800; }  /* orange highlight */
+
+#BellBeast{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#LastJudge{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#FourthChorus{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#GrandmotherSilk{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#Bastard{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#Top\ 5\ Characters{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#Home{
+    border-radius: 20px;
+    transition: transform .395s ease, box-shadow 0.3s ease;
+}
+
+#BellBeast:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#LastJudge:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#FourthChorus:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#GrandmotherSilk:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#Bastard:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#Top\ 5\ Characters:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+#Home:hover{
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 6px 10px 0 rgba(201, 23, 31, 1);
+    animation: glow;
+}
+
+
